@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+  ~ Copyright © 28Software (https://28software.com)
+  ~ See LICENSE for the license details.
+  -->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="before.body.end">
+            <block class="Magento\Checkout\Block\Onepage\Success" name="te_software_bing_conversion_tracker"
+                   template="TESoftware_BingConversionTracking::conversion-tracker.phtml">
+                <arguments>
+                    <argument name="view_model" xsi:type="object">TESoftware\BingConversionTracking\ViewModel\CheckoutTracker</argument>
+                </arguments>
+            </block>
+        </referenceContainer>
+    </body>
+</page>
