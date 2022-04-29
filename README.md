@@ -12,7 +12,6 @@ Bing Conversion Tracking module for Magento 2.
 Download composer `wget http://getcomposer.org/composer.phar`
 
 ```bash
-composer config repositories.28software-bing-conversion-tracking git git@bitbucket.org:28software/module-bing-conversion-tracking.git
 composer require 28software/module-bing-conversion-tracking
 ```
 
@@ -26,7 +25,7 @@ modman init
 
 Clone the repository, run the command from Magento 2 root directory:
 ```bash
-modman clone git@bitbucket.org:28software/module-bing-conversion-tracking.git
+modman clone git@github.com:28software/module-bing-conversion-tracking.git
 ```
 
 In order to update the repository with the changes from remote branch run the command:
@@ -36,7 +35,7 @@ modman update 28software/module-bing-conversion-tracking
 
 # Authors
 
-* [Serhii Koval](mailto:serhiyk@28software.com)
+* [Serhii Koval](mailto:skoval@28software.com)
 
 # License
 Bing Conversion Tracking extension for Magento 2 is licensed under the MIT License - see the LICENSE file for details

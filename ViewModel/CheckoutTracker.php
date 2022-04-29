@@ -8,13 +8,10 @@ declare(strict_types = 1);
 namespace TESoftware\BingConversionTracking\ViewModel;
 
 use Magento\Framework\View\Element\Block\ArgumentInterface;
+use Magento\Framework\Serialize\Serializer\Json;
 use Magento\Sales\Model\Order;
 use TESoftware\BingConversionTracking\Model\Config;
-use Zend\Serializer\Adapter\Json;
 
-/**
- * Class CheckoutTracker
- */
 class CheckoutTracker implements ArgumentInterface
 {
     /**

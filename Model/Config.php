@@ -9,9 +9,6 @@ namespace TESoftware\BingConversionTracking\Model;
 
 use Magento\Framework\App\Config\ScopeConfigInterface;
 
-/**
- * Class Config
- */
 class Config
 {
     private const PATH_ACTIVE = 'bing/conversion_tracking/active';
